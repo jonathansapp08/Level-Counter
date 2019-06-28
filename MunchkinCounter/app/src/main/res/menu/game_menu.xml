@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Visible -->
+    <item android:id="@+id/menu_battle"
+        android:icon="@drawable/lightning"
+        android:title="Battle"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_roll"
+        android:icon="@drawable/dice"
+        android:title="@string/roll_dice"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menu_notes"
+        android:icon="@drawable/notes"
+        android:title="Notes"
+        app:showAsAction="always"/>
+
+    <!-- Behind Menu -->
+    <item android:id="@+id/menu_end"
+        android:title="End Game"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>

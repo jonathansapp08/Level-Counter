@@ -1,0 +1,4 @@
+#Tue Jun 19 18:35:25 EDT 2018
+base.0=C\:\\Users\\Jonathan Sapp\\AndroidStudioProjects\\MunchkinCounter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex
