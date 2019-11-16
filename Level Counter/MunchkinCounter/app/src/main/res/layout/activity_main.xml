@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/outerLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF1D0">
+
+    <TableLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/first_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/newgame"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/clear_button"
+                android:drawableLeft="@drawable/sword_icon"
+                android:gravity="right|center"
+                android:text="@string/new_game"
+                android:paddingRight="30dp"
+                android:paddingLeft="15dp"
+                android:textSize="35sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/second_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/dice"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/clear_button"
+                android:drawableLeft="@drawable/dice_icon"
+                android:gravity="right|center"
+                android:text="@string/roll_dice"
+                android:paddingRight="30dp"
+                android:textSize="35sp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/third_row"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/notes"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:background="@drawable/clear_button"
+                android:drawableLeft="@drawable/notes_icon"
+                android:gravity="right|center"
+                android:text="@string/notes"
+                android:paddingRight="30dp"
+                android:paddingLeft="25dp"
+                android:textSize="35sp"/>
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

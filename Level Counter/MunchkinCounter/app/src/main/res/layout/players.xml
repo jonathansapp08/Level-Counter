@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF1D0">
+
+
+    <TextView
+        android:id="@+id/players"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="How many players?"
+        android:textSize="30sp"
+        android:textColor="#000000"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="125dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/players"
+                android:background="@drawable/clear_button"
+                android:text="3"
+                android:textSize="50sp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/players"
+                android:background="@drawable/clear_button"
+                android:text="4"
+                android:textSize="50sp"
+                android:layout_weight="1"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/three"
+                android:background="@drawable/clear_button"
+                android:text="5"
+                android:textSize="50sp"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/four"
+                android:background="@drawable/clear_button"
+                android:text="6"
+                android:textSize="50sp"
+                android:layout_weight="1"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>
