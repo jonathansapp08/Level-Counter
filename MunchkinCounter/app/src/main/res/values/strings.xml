@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Level Counter</string>
+
+    <string name="new_game">New Game</string>
+    <string name="notes">Notes</string>
+    <string name="roll_dice">Roll Dice</string>
+
+    <string name="roll">Roll</string>
+
+    <string name="name">Name</string>
+    <string name="level">Level</string>
+    <string name="gender">Gender</string>
+
+    <string name="boy">Boy</string>
+    <string name="girl">Girl</string>
+
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="player3">Player 3</string>
+    <string name="player4">Player 4</string>
+    <string name="player5">Player 5</string>
+    <string name="player6">Player 6</string>
+
+    <string name="house_rules">Type in House Rules or Notes!</string>
+    <string name="save">Save</string>
+
+
+    <string-array name="levelspin">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+
+
+</resources>
